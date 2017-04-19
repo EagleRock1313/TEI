@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<!doctype tei2 public "-//Library of Congress - Historical Collections (American Memory)//DTD ammem.dtd//EN" 
+[<!entity % images system "n8340.ent"> %images;]>-->
+<!--LINK TO  Votes for Women: Selections from the National American Woman Suffrage Association Collection, 1848-1921
+http://memory.loc.gov/ammem/naw/nawshome.html <tei2>-->
+<!-- Ortiz, Sandy INFO 246 Fall 2015 Final Project, 11/15/15-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="eng" type="text">
+  <fileDesc>
+        <titleStmt>
+            <title type="main">Constitution of the National Woman Suffrage Association</title>
+            <author>
+               <orgName>National Digital Library Program, Library of Congress</orgName>
+            </author>
+            <editor>Selected and converted.<lb/>
+            American Memory, Library of Congress.<lb/></editor>
+        </titleStmt>
+        <publicationStmt>
+           <publisher>National Digital Library Program, Library of Congress</publisher>
+           <idno type="aggitemid">rbnawsa-n8340</idno>
+           <availability><p>Copyright status not determined; refer to accompanying matter.</p></availability>
+        </publicationStmt>
+        <notesStmt>
+           <note>
+            <p>Washington, DC, 1993.</p>
+            <p>Preceding element provides place and date of transcription only.</p>
+            <p>For more information about this text and this American Memory collection, refer to accompanying matter.</p>
+           </note>
+           <note>
+            <p>Collection Name:</p>
+            <p>Winning the Vote for Women:  The National American Woman Suffrage Association Collection; American Memory, Library of Congress.</p>
+           </note>
+        </notesStmt>
+        <sourceDesc>
+          <p>Selected from the National American Woman Suffrage Association Collection, Rare Book and Special Collections Division, Library of Congress.</p>
+          <p>LCCN: 93-838340</p>
+        </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc><p>The National Digital Library Program at the Library of Congress makes digitized historical materials available for education and
+     scholarship.</p>
+    </projectDesc>
+    <editorialDecl><p>This transcription is intended to have an accuracy of 99.95 percent or greater and is not intended to reproduce the appearance of the 
+     original work.  The accompanying images provide a facsimile of this work and represent the appearance of the original.</p>
+    </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+     <language ident="en">English</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2003-08-19">Revised 08-19-2003</change>
+    <change when="1996-02-22">Created 02-22-1996</change>
+   </revisionDesc>	
+</teiHeader>
+<text type="publication">
+    <body>
+      <!--<pageinfo>
+      <controlpgno entity="n8340001">001</controlpgno>
+      <printpgno>4</printpgno></pageinfo>-->
+      <pb n="4" facs="n8340001"/>
+      <div>
+      <head>Constitution<lb/>
+      of the<lb/>
+      National Woman Suffrage Association.</head>
+      <list type="ordered">
+      <item>
+      <p><hi rend="smallcaps">Article 1.</hi>
+      &#151;This organization shall be called the 
+      <hi rend="smallcaps">National Woman Suffrage Assiociation.</hi></p>
+      </item>
+      <item>
+      <p><hi rend="smallcaps">Article 2.</hi>
+      &#151;The object of the Association shall be to secure 
+      <hi rend="smallcaps">National</hi>
+       protection for women citizens in the exercise of their right to vote.</p>
+      </item>
+      <item>
+      <p><hi rend="smallcaps">Article 3.</hi>
+      &#151;All citizens of the United States subscribing to this Constitution, and contributing not less than one dollar annually, shall be considered 
+      members of the Association, with the right to participate in its deliberations.</p>
+      </item>
+      <item>
+      <p><hi rend="smallcaps">Article 4.</hi>
+      &#151;The Officers of this Association shall be a President, a Vice-President from each of the States and Territories, Corresponding and 
+      Recording Secretaries, a Treasurer and an Executive Committee of not less than five.</p>
+      </item>
+      <item>
+      <p><hi rend="smallcaps">Article 5.</hi>
+      &#151;A quorum of the Executive Committe shall consist of nine, and all the Officers of this Association shall be sex-officio members of such
+      Committee, with power to vote.</p>
+      </item>
+      <item>
+      <p><hi rend="smallcaps">Article 6.</hi>
+      &#151;All Women Suffrage Societies throughout the country shall be welcomed as auxilliaries; and their accredited officers or duly 
+      appointed representatives shall be recognized as members of the National Association.</p>
+      </item>
+      </list>
+      <p>Those desiring to join can do&apos;so by sending one dollar with name and address to
+      <lb/>
+      MRS. JANE H. SFOFFARD, Treasurer, RIGGS HOUSE, Washington, D.C.</p>
+      </div>
+    </body>
+</text>
+</TEI>

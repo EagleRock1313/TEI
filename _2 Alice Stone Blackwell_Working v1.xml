@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<!doctype tei2 public "-//Library of Congress - Historical Collections (American Memory)//DTD ammem.dtd//EN" 
+[<!entity % images system "n835o.ent"> %images;]>-->
+<!--LINK TO  Votes for Women: Selections from the National American Woman Suffrage Association Collection, 1848-1921
+http://memory.loc.gov/ammem/naw/nawshome.html <tei2>-->
+<!-- Ortiz, Sandy INFO 246 Fall 2015 Final Project, 11/15/15-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="eng" type="text">
+  <fileDesc>
+     <titleStmt>
+        <title type="main">
+        The M.A.O.F.E.S.W [Massachusetts Association Opposed to the Further Extension of Suffrage to Woman] / by Alice Stone Blackwell:  a machine-readable
+        transcription.
+        </title>
+        <author><orgName>National Digital Library Program, Library of Congress</orgName></author>
+        <editor>Selected and converted.<lb/>
+         American Memory, Library of Congress.<lb/>
+        </editor>
+     </titleStmt>
+     <publicationStmt>
+        <publisher>National Digital Library Program, Library of Congress</publisher>
+        <idno type="aggitemid">rbnawsa-n835o</idno>
+        <availability><p>Copyright status not determined; refer to accompanying matter.</p></availability>
+     </publicationStmt>
+     <notesStmt>
+           <note>
+            <p>Washington, DC, 1993.</p>
+            <p>Preceding element provides place and date of transcription only.</p>
+            <p>For more information about this text and this American Memory collection, refer to accompanying matter.</p>
+           </note>
+           <note>
+            <p>Collection Name:</p>
+            <p>Winning the Vote for Women:  The National American Woman Suffrage Association Collection; American Memory, Library of Congress.</p>
+           </note>
+      </notesStmt>
+     <sourceDesc>
+       <p>Selected from the National American Woman Suffrage Association Collection, Rare Book and Special Collections Division, Library of Congress.</p>
+       <p>LCCN: None</p>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+      <projectDesc><p>The National Digital Library Program at the Library of Congress makes digitized historical materials available for education and
+       scholarship.</p></projectDesc>
+      <editorialDecl><p>This transcription is intended to have an accuracy of 99.95 percent or greater and is not intended to reproduce the appearance 
+       of the original work.  The accompanying images provide a facsimile of this work and represent the appearance of the original.</p>
+      </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+     <language ident="en">English</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+     <change when="2003-08-19">Revised 08-01-2003</change>
+     <change when="1995-09-28">Created 09-28-1995</change>
+     <!--<encodingdate>1995/09/28</encodingdate>
+     <revdate>2003/08/19</revdate>-->
+  </revisionDesc>	
+</teiHeader>
+<text type="publication">
+    <front>
+       <!--<pageinfo>
+       <controlpgno entity="n835o001">001</controlpgno>
+       <printpgno></printpgno>
+       </pageinfo>-->
+       <pb n="01" facs="n835o001"/>
+       <div type="idinfo">
+         
+          <p><stamp>492983</stamp></p>
+          <p><hi rend="bold">Political Equality Series</hi><lb/>
+          Vol. 2.  No. 4. <space quantity="20" unit="chars"/>Subscription Price, 10c Per Year
+         
+          </p>
+         <lb/>
+          <p>
+            <stamp>
+             <!--<omit reason="illegible">-->
+             <del><gap reason="illegible"/></del>
+            </stamp>
+          </p>
+          <p>Published monthly by the 
+             <hi rend="smallcaps">
+             National American<lb/>
+             Woman Suffrage Association,
+             </hi>
+             Headquarters,<lb/>
+             Warren, Ohio.
+          </p>
+        <lb/>
+       </div>
+    </front>
+    <body>
+      <div>
+       <head>
+       THE M. A. O. F. E. S. W.<lb/>
+       By Alice Stone Blackwell
+       </head>
+       <p>
+       The Massachusetts &#146; Association Opposed to the Further Extension of Suffrage to Women claims to have more than 12,000 members.  This statement gives a
+       greatly exaggerated idea of its strength, if unaccompanied with an explanation as to what membership means.  In most societies, those who join pay a membership
+       fee, and renew their membership from year to year.  The so-called members of the M.A.O.F.E.S.W. pay no membership fee; they merely sign an anti-suffrage
+       document; and those who signed years ago are still counted as members today.  As Mrs. Mary A. Livermore pointed out, they show about the same amount of interest
+       as the women who sign a suffrage petition.  Considering how easy it is to get people to sign almost anything, it is not at all remarkable that the
+       &#147;Antis&#148; have been able in eleven years to collect 12,000 signatures.  In New York, at the time of the last constitutional convention, the suffragists
+       secured more than 300,000 signatures in one year.  In Massachusetts, on the mock referendum taken in 1895, nearly twice as many women expressed themselves in
+       favor of suffrage in one day as the &#147;Antis&#148; have induced to express themselves against it in eleven years 
+       
+       <!--<pageinfo>
+       <controlpgno entity="n835o002">002</controlpgno>
+       <printpgno></printpgno></pageinfo>-->
+        <pb n="02" facs="n835o002"/>
+        The M. A. O. F. E. S. W. lays great stress upon this so-called referendum, and sends out to all the other states documents giving
+        a wholly misleading account of it.  The Oregon Association opposed to the Further Extension of Suffrage to Women in a recent pamphlet, based doubtless on
+        information supplied by the Massachusetts &#147;Antis,&#148; said of this mock referendum, &#147;It had been clamored for most vigorously by the
+        suffragists.&#148;  The Massachusetts suffragists had for nearly fifty years been asking the Legislature for a legal and valid referendum&#151;the submission to
+        the voters of a constitutional amendment giving full suffrage to women.  The opponents in the Legislature always refused to submit it.  They also voted down a 
+        bill to give women municipal suffrage, containing a proviso that the act should take effect only if ratified by a majority vote of both men and women at the 
+        polls. Later, the Legislature asked the Supreme Court of Massachusetts whether municipal suffrage could legally be extended to women in this way.  The Supreme 
+        Court ruled that the Legislature could not constitutionally pass an act making the extension of municipal suffrage to women contingent upon its ratification by
+        a referendum vote, either of men alone or of men and women together.  The opponents in the Legislature refused to take such a referendum when they supposed it   
+        would be constitutional, but no sooner did the Supreme Court declare that it would be unconstitutional than they became clamorous to have it.  They passed a bill
+        to submit the question to a mock vote, which was to have no legal validity, and was to give the women nothing if the majority went in their
+       <!--<pageinfo>
+       <controlpgno entity="n835o003">003</controlpgno>
+       <printpgno></printpgno></pageinfo>-->
+        <pb n="03" facs="n835o003"/>
+        favor.  The suffragists were so disgusted that many of them refused to take any part in it.  Nevertheless, the women&apos;s vote
+        stood&#151;Yeas, 22,204; nays, 861.
+       </p>
+       <p>
+       The &#147;Antis&#148; say that only four per cent. of the women of the state voted Yes.  They omit to say that less than one-sixth of one per cent. voted No. 
+       They say there were 57 towns where not one woman voted for suffrage.  There were 47 towns where not one woman voted for suffrage; and there were 238 towns where
+       not one woman voted against suffrage, despite the fact that an active &#147;Man Suffrage Association&#148; composed of prominent politicians covered the walls of
+       every town in the state with large posters urging the women to vote no.
+       </p>
+       <p>
+       The men&apos;s vote was in the negative, about two to one.  The men voting no were only 33 per cent. of the men of the state, but their verdict was considered
+       decisive.
+       </p>
+       <p>
+       The anti-suffrage politicians who had devised the scheme of the mock referendum regarded the women&apos;s vote as of little importance.  In a newspaper interview
+       published shortly before the election, one of the officers of the &#147;Man Suffrage Association&#148; bluntly declared that the women who took the trouble to
+       vote either way would probably vote in favor, ten to one (it proved to be 25 to one), but that, if the men gave a good majority against it, the Legislature coul be
+       relied upon after that to vote it down.
+       </p>
+       <p>
+       It is preposterous to quote the Massachusetts referendum as showing that the majority of women are opposed to suffrage.  Of the women who take any strong interest
+       in the question either way, 
+       <!--<pageinfo>
+       <controlpgno entity="n835o004">004</controlpgno>
+       <printpgno></printpgno></pageinfo>-->
+        <pb n="04" facs="n835o004"/>
+        the large majority are in favor.  This has been proved wherever the matter has been brought to a test.  In every state where
+        petitions for suffrage and remonstrances against it have been sent in, the petitioners have always out-numbered the remonstrants, generally 50 or 100 to one. 
+        The Massachusetts referendum merely demonstrated the same thing by an official count.
+       </p>
+    </div>
+    </body>
+    <back>
+      <div>
+           <p>
+           <hi rend="italics">Send 10 cents to National Woman Suffrage<lb/>
+           Headquarters, Warren, O., for a sample set of<lb/>
+           the Political Equality Leaflets; also 25 cents for<lb/>
+           a years subscription to Progress, the organ of<lb/>
+           the National American Women Suffrage Association.</hi>
+           </p>
+           <p><hi rend="italics">
+           For suffrage news, send 25 cents to the<lb/>
+           Woman&apos;s Journal, 3 Park St, Boston, Mass., <lb/>
+           edited weekly by Henry B. Blackwell and Alice <lb/>
+           Stone Blackwell; 3 months on trial, 25 cents; one<lb/>
+           year, $1.50.</hi>
+           </p>
+      </div>
+    </back>
+</text>
+</TEI>
